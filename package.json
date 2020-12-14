@@ -1,0 +1,29 @@
+{
+  "name": "newsweek_bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"sass": "sass --watch features/scss/style.scss features/css/style.css",
+		"stylelint": "npx stylelint '**/*.scss'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimdedan/newsweek_bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaimdedan/newsweek_bootstrap/issues"
+  },
+  "homepage": "https://github.com/jaimdedan/newsweek_bootstrap#readme",
+  "devDependencies": {
+    "hint": "^6.0.7",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}
