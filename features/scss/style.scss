@@ -83,13 +83,13 @@ $orange: #ec5242;
 
 .partners {
   background-color: $dark-gray;
-  position: relative;
 }
 
 .cover {
-  background-color: $light-gray;
+  background-color: $dark-gray;
   opacity: .1;
   width: 100%;
   height: 100%;
   position: absolute;
+  z-index: 1;
 }
