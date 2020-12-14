@@ -135,6 +135,13 @@ table {
 
 /* meyerweb Reset */
 /* Variables */
+/* Global */
+.section-title {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+/* Header */
 .header {
   background-color: #d3d3d3;
 }
@@ -210,11 +217,12 @@ table {
 
 .partners {
   background-color: #414246;
+  height: 205px;
 }
 
 .cover {
   background-color: #414246;
-  opacity: 0.1;
+  opacity: 0.5;
   width: 100%;
   height: 100%;
   position: absolute;

@@ -8,6 +8,13 @@ $light-gray: #d3d3d3;
 $white: #fff;
 $orange: #ec5242;
 
+/* Global */
+.section-title {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+/* Header */
 .header {
   background-color: $light-gray;
 }
@@ -83,11 +90,12 @@ $orange: #ec5242;
 
 .partners {
   background-color: $dark-gray;
+  height: 205px;
 }
 
 .cover {
   background-color: $dark-gray;
-  opacity: .1;
+  opacity: .5;
   width: 100%;
   height: 100%;
   position: absolute;
