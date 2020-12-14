@@ -8,6 +8,10 @@ $light-gray: #d3d3d3;
 $white: #fff;
 $orange: #ec5242;
 
+.header {
+  background-color: $light-gray;
+}
+
 .fa-bars {
   font-size: 30px;
   padding-left: 18px;
@@ -41,6 +45,7 @@ $orange: #ec5242;
 
 .header-info {
   margin-top: 45px;
+  padding-bottom: 100px;
 }
 
 .header-greeting {
@@ -58,6 +63,16 @@ $orange: #ec5242;
   font-weight: bold;
 }
 
-.header-info-box{
+.header-info-box {
+  background-color: $light-gray;
   max-width: 350px;
+}
+
+.main-program {
+  background-color: $black;
+}
+
+.main-program-item {
+  background-color: $white;
+  opacity: .1;
 }

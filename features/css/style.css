@@ -135,6 +135,10 @@ table {
 
 /* meyerweb Reset */
 /* Variables */
+.header {
+  background-color: #d3d3d3;
+}
+
 .fa-bars {
   font-size: 30px;
   padding-left: 18px;
@@ -168,6 +172,7 @@ table {
 
 .header-info {
   margin-top: 45px;
+  padding-bottom: 100px;
 }
 
 .header-greeting {
@@ -186,7 +191,17 @@ table {
 }
 
 .header-info-box {
+  background-color: #d3d3d3;
   max-width: 350px;
+}
+
+.main-program {
+  background-color: #272a31;
+}
+
+.main-program-item {
+  background-color: #fff;
+  opacity: 0.1;
 }
 
 /*# sourceMappingURL=style.css.map */
