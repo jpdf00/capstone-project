@@ -1,2 +1,63 @@
 /* meyerweb Reset */
 @use '_meyerweb-reset';
+
+/* Variables */
+$black: #272a31;
+$dark-gray: #414246;
+$light-gray: #d3d3d3;
+$white: #fff;
+$orange: #ec5242;
+
+.fa-bars {
+  font-size: 30px;
+  padding-left: 18px;
+  padding-top: 12px;
+}
+
+.nav-bar-top {
+  height: 30px;
+  background-color: $black;
+}
+
+.nav-top-links {
+  text-decoration: none;
+}
+
+.nav-bar-bottom {
+  height: 65px;
+  background-color: $white;
+}
+
+.nav-bottom-links {
+  color: $dark-gray;
+  text-decoration: none;
+  padding-right: 34px;
+  opacity: .75;
+}
+
+.link-about {
+  color: $orange;
+}
+
+.header-info {
+  margin-top: 45px;
+}
+
+.header-greeting {
+  font-size: 15px;
+  color: $orange;
+  margin: 0;
+}
+
+.button-campaing {
+  border: solid $orange 4px;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: $orange;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header-info-box{
+  max-width: 350px;
+}

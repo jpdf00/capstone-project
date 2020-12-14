@@ -134,5 +134,59 @@ table {
 }
 
 /* meyerweb Reset */
+/* Variables */
+.fa-bars {
+  font-size: 30px;
+  padding-left: 18px;
+  padding-top: 12px;
+}
+
+.nav-bar-top {
+  height: 30px;
+  background-color: #272a31;
+}
+
+.nav-top-links {
+  text-decoration: none;
+}
+
+.nav-bar-bottom {
+  height: 65px;
+  background-color: #fff;
+}
+
+.nav-bottom-links {
+  color: #414246;
+  text-decoration: none;
+  padding-right: 34px;
+  opacity: 0.75;
+}
+
+.link-about {
+  color: #ec5242;
+}
+
+.header-info {
+  margin-top: 45px;
+}
+
+.header-greeting {
+  font-size: 15px;
+  color: #ec5242;
+  margin: 0;
+}
+
+.button-campaing {
+  border: solid #ec5242 4px;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #ec5242;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header-info-box {
+  max-width: 350px;
+}
 
 /*# sourceMappingURL=style.css.map */
