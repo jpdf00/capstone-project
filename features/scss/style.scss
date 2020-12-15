@@ -59,6 +59,12 @@ $orange: #ec5242;
   background-color: $white;
 }
 
+.header-logo {
+  width: auto;
+  height: 30px;
+  margin-right: 55px;
+}
+
 .nav-bottom-links {
   color: $dark-gray;
   text-decoration: none;
@@ -242,7 +248,33 @@ $orange: #ec5242;
 }
 
 .partners-list {
+  padding: 0;
   margin-bottom: 44px;
+}
+
+.partners-logo-mozilla {
+  width: auto;
+  height: 30px;
+}
+
+.partners-logo-google {
+  width: auto;
+  height: 30px;
+}
+
+.partners-logo-naver {
+  width: auto;
+  height: 30px;
+}
+
+.partners-logo-daumkakao {
+  width: 86px;
+  height: auto;
+}
+
+.partners-logo-airbnb {
+  width: auto;
+  height: 30px;
 }
 
 /* Footer */
@@ -251,6 +283,8 @@ $orange: #ec5242;
 }
 
 .footer-logo {
+  width: 130px;
+  height: auto;
   margin-right: 55px;
 }
 
