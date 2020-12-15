@@ -185,6 +185,12 @@ table {
   background-color: #fff;
 }
 
+.header-logo {
+  width: auto;
+  height: 30px;
+  margin-right: 55px;
+}
+
 .nav-bottom-links {
   color: #414246;
   text-decoration: none;
@@ -242,7 +248,7 @@ table {
   font-weight: bold;
 }
 
-/* Main Program */
+/* Logo contest */
 .logo-contest {
   color: #414246;
   background-color: #fff;
@@ -250,13 +256,27 @@ table {
   border-bottom: 2px solid #d3d3d3;
 }
 
-/* Featured Speakers */
+.main-logo {
+  max-width: 340px;
+  height: auto;
+  margin: 45px auto 30px auto;
+}
+
+/* Past Conferences */
 .past-conferences {
   color: #414246;
 }
 
 .contest-info {
   font-size: 12px;
+}
+
+.past-img {
+  color: #fff;
+  display: block;
+  background-color: #ec5242;
+  width: 300px;
+  height: 165px;
 }
 
 /* Partners */
@@ -282,7 +302,33 @@ table {
 }
 
 .partners-list {
+  padding: 0;
   margin-bottom: 44px;
+}
+
+.partners-logo-mozilla {
+  width: auto;
+  height: 30px;
+}
+
+.partners-logo-google {
+  width: auto;
+  height: 30px;
+}
+
+.partners-logo-naver {
+  width: auto;
+  height: 30px;
+}
+
+.partners-logo-daumkakao {
+  width: 86px;
+  height: auto;
+}
+
+.partners-logo-airbnb {
+  width: auto;
+  height: 30px;
 }
 
 /* Footer */
@@ -291,6 +337,8 @@ table {
 }
 
 .footer-logo {
+  width: 130px;
+  height: auto;
   margin-right: 55px;
 }
 
@@ -333,6 +381,12 @@ table {
   .legal {
     color: #fff;
     background-color: #414246;
+  }
+
+  .footer-logo {
+    width: 150px;
+    height: auto;
+    margin-right: 55px;
   }
 }
 

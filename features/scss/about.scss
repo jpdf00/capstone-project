@@ -59,6 +59,12 @@ $orange: #ec5242;
   background-color: $white;
 }
 
+.header-logo {
+  width: auto;
+  height: 30px;
+  margin-right: 55px;
+}
+
 .nav-bottom-links {
   color: $dark-gray;
   text-decoration: none;
@@ -116,7 +122,7 @@ $orange: #ec5242;
   font-weight: bold;
 }
 
-/* Main Program */
+/* Logo contest */
 .logo-contest {
   color: $dark-gray;
   background-color: $white;
@@ -124,13 +130,27 @@ $orange: #ec5242;
   border-bottom: 2px solid $light-gray;
 }
 
-/* Featured Speakers */
+.main-logo {
+  max-width: 340px;
+  height: auto;
+  margin: 45px auto 30px auto;
+}
+
+/* Past Conferences */
 .past-conferences {
   color: $dark-gray;
 }
 
 .contest-info {
   font-size: 12px;
+}
+
+.past-img {
+  color: $white;
+  display: block;
+  background-color: $orange;
+  width: 300px;
+  height: 165px;
 }
 
 /* Partners */
@@ -156,7 +176,33 @@ $orange: #ec5242;
 }
 
 .partners-list {
+  padding: 0;
   margin-bottom: 44px;
+}
+
+.partners-logo-mozilla {
+  width: auto;
+  height: 30px;
+}
+
+.partners-logo-google {
+  width: auto;
+  height: 30px;
+}
+
+.partners-logo-naver {
+  width: auto;
+  height: 30px;
+}
+
+.partners-logo-daumkakao {
+  width: 86px;
+  height: auto;
+}
+
+.partners-logo-airbnb {
+  width: auto;
+  height: 30px;
 }
 
 /* Footer */
@@ -165,6 +211,8 @@ $orange: #ec5242;
 }
 
 .footer-logo {
+  width: 130px;
+  height: auto;
   margin-right: 55px;
 }
 
@@ -207,5 +255,11 @@ $orange: #ec5242;
   .legal {
     color: $white;
     background-color: $dark-gray;
+  }
+
+  .footer-logo {
+    width: 150px;
+    height: auto;
+    margin-right: 55px;
   }
 }
