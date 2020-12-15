@@ -103,6 +103,7 @@ $orange: #ec5242;
   font-size: 18px;
 }
 
+/* Main Program */
 .main-program {
   background-color: $black;
 }
@@ -118,7 +119,17 @@ $orange: #ec5242;
   opacity: .1;
 }
 
+.program-title {
+  color: $orange;
+  font-size: 16px;
+}
+
+.program-info {
+  font-size: 12px;
+}
+
 .program-link {
+  font-size: 18px;
   margin-top: 65px;
   padding-bottom: 80px;
 }
@@ -130,6 +141,7 @@ $orange: #ec5242;
   margin: 30px 0;
 }
 
+/* Featured Speakers */
 .featured-speakers {
   color: $dark-gray;
 }
@@ -161,10 +173,12 @@ $orange: #ec5242;
   z-index: 1;
 }
 
+/* Partners */
 .partners-list {
   margin-bottom: 44px;
 }
 
+/* Footer */
 .legal {
   padding: 70px 0;
 }
