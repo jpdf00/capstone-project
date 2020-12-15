@@ -139,7 +139,7 @@ table {
 .section-title {
   font-size: 18px;
   line-height: 18px;
-  padding-top: 45px;
+  padding-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -156,6 +156,10 @@ table {
   font-size: 30px;
   padding-left: 18px;
   padding-top: 12px;
+}
+
+.nav-bar {
+  z-index: 999;
 }
 
 .nav-bar-top {
@@ -207,11 +211,22 @@ table {
   font-size: 47px;
   color: #ec5242;
   font-family: "Cocogoose", sans-serif;
+  font-weight: bolder;
 }
 
 .header-info-box {
   background-color: #d3d3d3;
   max-width: 530px;
+  font-size: 12px;
+}
+
+.date-info {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.location-info {
+  font-size: 18px;
 }
 
 .main-program {
@@ -261,7 +276,6 @@ table {
 
 .partners {
   background-color: #414246;
-  height: 205px;
 }
 
 .cover {
@@ -271,6 +285,26 @@ table {
   height: 100%;
   position: absolute;
   z-index: 1;
+}
+
+.partners-list {
+  margin-bottom: 44px;
+}
+
+.legal {
+  padding: 70px 0;
+}
+
+.footer-logo {
+  margin-right: 55px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .header-info {
+    margin-top: 0;
+    padding-top: 140px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
