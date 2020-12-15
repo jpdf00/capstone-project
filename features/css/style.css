@@ -136,13 +136,11 @@ table {
 /* meyerweb Reset */
 /* Variables */
 /* Global */
-@font-face {
-  font-family: "Cocogoose";
-  src: url("./features/assets/fonts/cocogoose/Cocogoose-Pro-trial.ttf");
-}
 .section-title {
   font-size: 18px;
   line-height: 18px;
+  padding-top: 45px;
+  margin-bottom: 30px;
 }
 
 * {
@@ -207,7 +205,6 @@ table {
 
 .header-title {
   font-size: 47px;
-  font-weight: bolder;
   color: #ec5242;
   font-family: "Cocogoose", sans-serif;
 }
@@ -222,12 +219,44 @@ table {
 }
 
 .main-program-item {
+  color: #fff;
+}
+
+.main-program-cover {
+  width: 100%;
+  height: 100%;
   background-color: #fff;
   opacity: 0.1;
 }
 
+.program-link {
+  margin-top: 65px;
+  padding-bottom: 80px;
+}
+
+.join-link {
+  display: inline-block;
+  background-color: #ec5242;
+  padding: 30px;
+  margin: 30px 0;
+}
+
 .featured-speakers {
   color: #414246;
+}
+
+.featured-box {
+  margin-top: 45px;
+}
+
+.featured-photo {
+  margin: 12px 12px;
+}
+
+.featured-text-box {
+  padding-top: 10px;
+  margin: 0 0 50px 110px;
+  height: 143px;
 }
 
 .partners {
