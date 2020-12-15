@@ -1,0 +1,391 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb Reset */
+/* Variables */
+/* Global */
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section-title::after {
+  content: "";
+  margin: 10px auto;
+  display: block;
+  border-bottom: 2px solid #ec5242;
+  width: 50px;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #d3d3d3;
+}
+
+.fa-bars {
+  font-size: 30px;
+  padding-left: 18px;
+  padding-top: 12px;
+}
+
+.nav-bar {
+  z-index: 999;
+}
+
+.nav-bar-top {
+  height: 30px;
+  background-color: #272a31;
+}
+
+.nav-top-links {
+  text-decoration: none;
+}
+
+.nav-bar-bottom {
+  height: 65px;
+  background-color: #fff;
+}
+
+.nav-bottom-links {
+  color: #414246;
+  text-decoration: none;
+  padding-right: 34px;
+  opacity: 0.75;
+}
+
+.link-about {
+  color: #ec5242;
+}
+
+.button-campaing {
+  border: solid #ec5242 4px;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #ec5242;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header-info {
+  margin-top: 45px;
+  padding-bottom: 100px;
+}
+
+.header-greeting {
+  font-size: 30px;
+  color: #ec5242;
+  margin: 0;
+}
+
+.header-title {
+  font-size: 47px;
+  color: #ec5242;
+  font-family: "Cocogoose", sans-serif;
+  font-weight: bolder;
+}
+
+.header-info-box {
+  background-color: #d3d3d3;
+  max-width: 530px;
+  font-size: 12px;
+}
+
+.date-info {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.location-info {
+  font-size: 18px;
+}
+
+/* Main Program */
+.main-program {
+  background-color: #272a31;
+}
+
+.main-program-item {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.main-program-cover {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.1;
+}
+
+.program-icon {
+  font-size: 50px;
+}
+
+.program-title {
+  color: #ec5242;
+  font-size: 16px;
+}
+
+.program-info {
+  font-size: 12px;
+}
+
+.program-link {
+  font-size: 18px;
+  margin-top: 65px;
+  padding-bottom: 80px;
+}
+
+.join-link {
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #ec5242;
+  padding: 30px;
+  margin: 30px 0;
+}
+
+/* Featured Speakers */
+.featured-speakers {
+  color: #414246;
+}
+
+.featured-box {
+  margin-top: 45px;
+}
+
+.featured-photo {
+  margin: 12px 12px;
+}
+
+.featured-text-box {
+  padding-top: 10px;
+  margin: 0 0 50px 110px;
+  height: 140px;
+}
+
+.speakers-name {
+  color: #272a31;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.speakers-qualification {
+  color: #ec5242;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.speakers-qualification::after {
+  content: "";
+  margin-top: 10px;
+  display: block;
+  border-bottom: 1px solid #d3d3d3;
+  width: 20px;
+}
+
+.speakers-info {
+  color: #272a31;
+  font-size: 12px;
+}
+
+.more-btn {
+  margin: 50px 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.more-link {
+  text-decoration: none;
+  color: #272a31;
+  font-size: 18px;
+}
+
+.more-link::after {
+  content: "";
+  margin-left: 10px;
+  display: inline-block;
+  border-right: 2px solid #ec5242;
+  border-bottom: 2px solid #ec5242;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+}
+
+/* Partners */
+.partners {
+  background-color: #414246;
+}
+
+.cover {
+  background-color: #414246;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.partners-list {
+  margin-bottom: 44px;
+}
+
+/* Footer */
+.legal {
+  padding: 70px 0;
+}
+
+.footer-logo {
+  margin-right: 55px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .header-info {
+    margin-top: 0;
+    padding-top: 140px;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */
