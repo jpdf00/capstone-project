@@ -136,6 +136,10 @@ table {
 /* meyerweb Reset */
 /* Variables */
 /* Global */
+@font-face {
+  font-family: "Cocogoose";
+  src: url("./features/assets/fonts/cocogoose/Cocogoose-Pro-trial.ttf");
+}
 .section-title {
   font-size: 18px;
   line-height: 18px;
@@ -181,17 +185,6 @@ table {
   color: #ec5242;
 }
 
-.header-info {
-  margin-top: 45px;
-  padding-bottom: 100px;
-}
-
-.header-greeting {
-  font-size: 15px;
-  color: #ec5242;
-  margin: 0;
-}
-
 .button-campaing {
   border: solid #ec5242 4px;
   padding: 6px 12px;
@@ -199,6 +192,24 @@ table {
   color: #ec5242;
   font-size: 15px;
   font-weight: bold;
+}
+
+.header-info {
+  margin-top: 45px;
+  padding-bottom: 100px;
+}
+
+.header-greeting {
+  font-size: 30px;
+  color: #ec5242;
+  margin: 0;
+}
+
+.header-title {
+  font-size: 47px;
+  font-weight: bolder;
+  color: #ec5242;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .header-info-box {

@@ -9,6 +9,11 @@ $white: #fff;
 $orange: #ec5242;
 
 /* Global */
+@font-face {
+font-family: 'Cocogoose';
+src: url('./features/assets/fonts/cocogoose/Cocogoose-Pro-trial.ttf');
+}
+
 .section-title {
   font-size: 18px;
   line-height: 18px;
@@ -54,17 +59,6 @@ $orange: #ec5242;
   color: $orange;
 }
 
-.header-info {
-  margin-top: 45px;
-  padding-bottom: 100px;
-}
-
-.header-greeting {
-  font-size: 15px;
-  color: $orange;
-  margin: 0;
-}
-
 .button-campaing {
   border: solid $orange 4px;
   padding: 6px 12px;
@@ -72,6 +66,24 @@ $orange: #ec5242;
   color: $orange;
   font-size: 15px;
   font-weight: bold;
+}
+
+.header-info {
+  margin-top: 45px;
+  padding-bottom: 100px;
+}
+
+.header-greeting {
+  font-size: 30px;
+  color: $orange;
+  margin: 0;
+}
+
+.header-title {
+  font-size: 47px;
+  font-weight: bolder;
+  color: $orange;
+  font-family: 'Cocogoose', sans-serif;
 }
 
 .header-info-box {
