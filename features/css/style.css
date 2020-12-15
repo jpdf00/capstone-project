@@ -141,6 +141,10 @@ table {
   line-height: 18px;
 }
 
+* {
+  font-family: "Lato", sans-serif;
+}
+
 /* Header */
 .header {
   background-color: #d3d3d3;
@@ -199,7 +203,7 @@ table {
 
 .header-info-box {
   background-color: #d3d3d3;
-  max-width: 350px;
+  max-width: 530px;
 }
 
 .main-program {
