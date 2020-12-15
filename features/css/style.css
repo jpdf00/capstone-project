@@ -149,7 +149,7 @@ table {
   margin: 10px auto;
   display: block;
   border-bottom: 2px solid #ec5242;
-  width: 10px;
+  width: 50px;
 }
 
 * {
@@ -300,7 +300,32 @@ table {
 .featured-text-box {
   padding-top: 10px;
   margin: 0 0 50px 110px;
-  height: 143px;
+  height: 140px;
+}
+
+.speakers-name {
+  color: #272a31;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.speakers-qualification {
+  color: #ec5242;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.speakers-qualification::after {
+  content: "";
+  margin-top: 10px;
+  display: block;
+  border-bottom: 1px solid #d3d3d3;
+  width: 20px;
+}
+
+.speakers-info {
+  color: #272a31;
+  font-size: 12px;
 }
 
 .more-btn {

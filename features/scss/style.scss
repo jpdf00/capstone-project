@@ -23,7 +23,7 @@ $orange: #ec5242;
   margin: 10px auto;
   display: block;
   border-bottom: 2px solid $orange;
-  width: 10px;
+  width: 50px;
 }
 
 * {
@@ -174,7 +174,32 @@ $orange: #ec5242;
 .featured-text-box {
   padding-top: 10px;
   margin: 0 0 50px 110px;
-  height: 143px;
+  height: 140px;
+}
+
+.speakers-name {
+  color: $black;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.speakers-qualification {
+  color: $orange;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.speakers-qualification::after {
+  content: "";
+  margin-top: 10px;
+  display: block;
+  border-bottom: 1px solid $light-gray;
+  width: 20px;
+}
+
+.speakers-info {
+  color: $black;
+  font-size: 12px;
 }
 
 .more-btn {
