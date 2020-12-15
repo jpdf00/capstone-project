@@ -138,9 +138,18 @@ table {
 /* Global */
 .section-title {
   font-size: 18px;
+  font-weight: bold;
   line-height: 18px;
   padding-top: 30px;
   margin-bottom: 30px;
+}
+
+.section-title::after {
+  content: "";
+  margin: 10px auto;
+  display: block;
+  border-bottom: 2px solid #ec5242;
+  width: 10px;
 }
 
 * {
@@ -294,6 +303,32 @@ table {
   height: 143px;
 }
 
+.more-btn {
+  margin: 50px 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.more-link {
+  text-decoration: none;
+  color: #272a31;
+  font-size: 18px;
+}
+
+.more-link::after {
+  content: "";
+  margin-left: 10px;
+  display: inline-block;
+  border-right: 2px solid #ec5242;
+  border-bottom: 2px solid #ec5242;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+}
+
+/* Partners */
 .partners {
   background-color: #414246;
 }
@@ -307,7 +342,6 @@ table {
   z-index: 1;
 }
 
-/* Partners */
 .partners-list {
   margin-bottom: 44px;
 }
