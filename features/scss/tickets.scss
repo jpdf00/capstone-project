@@ -15,7 +15,7 @@ $orange: #ec5242;
   font-weight: bold;
   line-height: 18px;
   padding-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .section-title::after {
@@ -23,7 +23,7 @@ $orange: #ec5242;
   margin: 10px auto;
   display: block;
   border-bottom: 2px solid $orange;
-  width: 50px;
+  width: 25px;
 }
 
 * {
@@ -86,152 +86,71 @@ $orange: #ec5242;
 }
 
 .header-info {
-  color: $dark-gray;
   margin-top: 45px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .header-greeting {
   font-size: 30px;
   color: $orange;
-  margin: 0;
 }
 
 .header-title {
-  font-size: 47px;
+  font-size: 33px;
   color: $orange;
   font-family: "Cocogoose", sans-serif;
   font-weight: bolder;
 }
 
 .header-info-box {
-  background-color: $light-gray;
-  max-width: 530px;
-  font-size: 12px;
-}
-
-.date-info {
-  font-size: 25px;
-  font-weight: bolder;
-}
-
-.location-info {
-  font-size: 18px;
-}
-
-/* Main Program */
-.main-program {
-  background-color: $black;
-}
-
-.main-program-item {
-  width: 100%;
-  height: 100%;
-  color: $white;
-}
-
-.main-program-cover {
-  width: 100%;
-  height: 100%;
-  background-color: $white;
-  opacity: .1;
-}
-
-.program-icon {
-  font-size: 50px;
-}
-
-.program-title {
-  color: $orange;
-  font-size: 16px;
-}
-
-.program-info {
-  font-size: 12px;
-}
-
-.program-link {
-  font-size: 18px;
-  margin-top: 65px;
-  padding-bottom: 80px;
-}
-
-.join-link {
-  font-size: 18px;
-  text-decoration: none;
-  display: inline-block;
-  background-color: $orange;
-  padding: 30px;
-  margin: 30px 0;
-}
-
-/* Featured Speakers */
-.featured-speakers {
   color: $dark-gray;
-}
-
-.featured-box {
-  margin-top: 45px;
-}
-
-.featured-photo {
-  margin: 12px 12px;
-}
-
-.featured-text-box {
-  padding-top: 10px;
-  margin: 0 0 50px 110px;
-  height: 140px;
-}
-
-.speakers-name {
-  color: $black;
+  margin: 50px auto;
+  background-color: $white;
+  max-width: 720px;
   font-size: 17px;
+}
+
+.contact-info {
+  color: $dark-gray;
+  font-size: 18px;
+}
+
+.contact-link {
+  color: $dark-gray;
+  font-size: 14px;
   font-weight: bold;
 }
 
-.speakers-qualification {
-  color: $orange;
-  font-size: 12px;
-  font-style: italic;
+/* Logo contest */
+.logo-contest {
+  color: $dark-gray;
+  background-color: $white;
+  border-top: 2px solid $light-gray;
+  border-bottom: 2px solid $light-gray;
 }
 
-.speakers-qualification::after {
-  content: "";
-  margin-top: 10px;
+.contest-info {
+  font-size: 16px;
+}
+
+.main-logo {
+  max-width: 340px;
+  height: auto;
+  margin: 45px auto 30px auto;
+}
+
+/* Past Conferences */
+.past-conferences {
+  color: $dark-gray;
+}
+
+.past-img {
+  color: $white;
   display: block;
-  border-bottom: 1px solid $light-gray;
-  width: 20px;
-}
-
-.speakers-info {
-  color: $black;
-  font-size: 12px;
-}
-
-.more-btn {
-  margin: 50px 0;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-}
-
-.more-link {
-  text-decoration: none;
-  color: $black;
-  font-size: 18px;
-}
-
-.more-link::after {
-  content: "";
-  margin-left: 10px;
-  display: inline-block;
-  border-right: 2px solid $orange;
-  border-bottom: 2px solid $orange;
-  width: 10px;
-  height: 10px;
-  transform: rotate(45deg);
+  background-color: $orange;
+  width: 300px;
+  height: 165px;
 }
 
 /* Partners */
@@ -239,13 +158,12 @@ $orange: #ec5242;
   background-color: $dark-gray;
 }
 
-.cover {
-  background-color: $dark-gray;
-  opacity: .5;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
+.partners-title::after {
+  content: "";
+  margin: 10px auto;
+  display: block;
+  border-bottom: 2px solid $orange;
+  width: 40px;
 }
 
 .partners-list {
@@ -253,29 +171,9 @@ $orange: #ec5242;
   margin-bottom: 44px;
 }
 
-.partners-logo-mozilla {
+.partners-logo {
   width: auto;
-  height: 30px;
-}
-
-.partners-logo-google {
-  width: auto;
-  height: 30px;
-}
-
-.partners-logo-naver {
-  width: auto;
-  height: 30px;
-}
-
-.partners-logo-daumkakao {
-  width: 86px;
-  height: auto;
-}
-
-.partners-logo-airbnb {
-  width: auto;
-  height: 30px;
+  height: 65px;
 }
 
 /* Footer */
@@ -291,9 +189,48 @@ $orange: #ec5242;
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
-
-.header-info {
+  .header-info {
     margin-top: 0;
     padding-top: 140px;
+    padding-bottom: 70px;
+  }
+
+  .header-title::after {
+    content: "";
+    margin: 10px auto;
+    display: block;
+    border-bottom: 2px solid $orange;
+    width: 25px;
+  }
+
+  .header-info-box {
+    margin: 30px auto;
+    font-size: 12px;
+  }
+
+  .contact-link::after {
+    content: "";
+    margin-left: 5px;
+    display: inline-block;
+    border-right: 2px solid $dark-gray;
+    border-bottom: 2px solid $dark-gray;
+    width: 10px;
+    height: 10px;
+    transform: rotate(315deg);
+  }
+
+  .contest-info {
+    font-size: 14px;
+  }
+
+  .legal {
+    color: $white;
+    background-color: $dark-gray;
+  }
+
+  .footer-logo {
+    width: 150px;
+    height: auto;
+    margin-right: 55px;
   }
 }
