@@ -24,9 +24,19 @@ li {
   list-style: none;
 }
 
+.steps::before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  background-color: #ec5242;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+}
+
 /* Header */
 .header {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
 }
 
 .fa-bars {
@@ -79,153 +89,86 @@ li {
   font-weight: bold;
 }
 
-.header-info {
+/* select Tickets */
+.select-tickets {
   margin-top: 45px;
   padding-bottom: 50px;
   text-align: center;
 }
 
-.header-greeting {
-  font-size: 30px;
-  color: #ec5242;
-}
-
-.header-title {
-  font-size: 33px;
-  color: #ec5242;
-  font-family: "Cocogoose", sans-serif;
-  font-weight: bolder;
-}
-
-.header-info-box {
+.info-box {
+  display: inline-block;
+  padding: 5px 20px;
   color: #414246;
-  margin: 50px auto;
-  background-color: #fff;
-  max-width: 720px;
-  font-size: 17px;
+  margin: 40px auto 30px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid #d3d3d3;
+  vertical-align: center;
 }
 
-.contact-info {
-  color: #414246;
-  font-size: 18px;
+.table-row {
+  border: 2px solid #d3d3d3;
+  border-collapse: collapse;
 }
 
-.contact-link {
+.table-data {
   color: #414246;
-  font-size: 14px;
   font-weight: bold;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: 1px groove #d3d3d3;
+  border-collapse: collapse;
 }
 
-/* Logo contest */
-.logo-contest {
-  color: #414246;
-  background-color: #fff;
-  border-top: 2px solid #d3d3d3;
-  border-bottom: 2px solid #d3d3d3;
+.table-header {
+  background-color: #f7f7f7;
 }
 
-.contest-info {
+.tickets-label {
+  display: block;
+  color: #ec5242;
   font-size: 16px;
 }
 
-.main-logo {
-  max-width: 340px;
-  height: auto;
-  margin: 45px auto 30px auto;
+.steps {
+  margin: 0 10px;
+  color: #ec5242;
 }
 
-/* Past Conferences */
-.past-conferences {
+/* Select Room */
+.select-room {
   color: #414246;
+  background-color: #fff;
+  border-top: 2px solid #d3d3d3;
 }
 
-.past-img {
-  color: #fff;
-  display: block;
+.room-title {
+  font-size: 18px;
+  vertical-align: middle;
+  padding: 10px 0;
+  background-color: #f7f7f7;
+}
+
+.label-room {
+  padding-left: 10px;
+}
+
+.join-link {
+  font-size: 18px;
+  text-decoration: none;
   background-color: #ec5242;
-  width: 300px;
-  height: 165px;
-}
-
-/* Partners */
-.partners {
-  background-color: #414246;
-}
-
-.partners-title::after {
-  content: "";
-  margin: 10px auto;
-  display: block;
-  border-bottom: 2px solid #ec5242;
-  width: 40px;
-}
-
-.partners-list {
-  padding: 0;
-  margin-bottom: 44px;
-}
-
-.partners-logo {
-  width: auto;
-  height: 65px;
-}
-
-/* Footer */
-.legal {
-  padding: 70px 0;
-}
-
-.footer-logo {
-  width: 130px;
-  height: auto;
-  margin-right: 55px;
+  padding: 10px 30px;
+  margin: 30px 0;
+  color: #fff;
 }
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
-  .header-info {
+  .select-tickets {
     margin-top: 0;
     padding-top: 140px;
     padding-bottom: 70px;
-  }
-
-  .header-title::after {
-    content: "";
-    margin: 10px auto;
-    display: block;
-    border-bottom: 2px solid #ec5242;
-    width: 25px;
-  }
-
-  .header-info-box {
-    margin: 30px auto;
-    font-size: 12px;
-  }
-
-  .contact-link::after {
-    content: "";
-    margin-left: 5px;
-    display: inline-block;
-    border-right: 2px solid #414246;
-    border-bottom: 2px solid #414246;
-    width: 10px;
-    height: 10px;
-    transform: rotate(315deg);
-  }
-
-  .contest-info {
-    font-size: 14px;
-  }
-
-  .legal {
-    color: #fff;
-    background-color: #414246;
-  }
-
-  .footer-logo {
-    width: 150px;
-    height: auto;
-    margin-right: 55px;
   }
 }
 @media screen and (min-width: 992px) {

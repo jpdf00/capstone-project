@@ -2,11 +2,11 @@
 $black: #272a31;
 $dark-gray: #414246;
 $light-gray: #d3d3d3;
+$lighter-gray: #f7f7f7;
 $white: #fff;
 $orange: #ec5242;
 
 /* Global */
-
 .section-title {
   font-size: 18px;
   font-weight: bold;
@@ -27,13 +27,23 @@ $orange: #ec5242;
   font-family: 'Lato', sans-serif;
 }
 
-li{
+li {
   list-style: none;
+}
+
+.steps::before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  background-color: $orange;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
 }
 
 /* Header */
 .header {
-  background-color: $light-gray;
+  background-color: $lighter-gray;
 }
 
 .fa-bars {
@@ -70,7 +80,7 @@ li{
   color: $dark-gray;
   text-decoration: none;
   padding-right: 34px;
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .link-about {
@@ -86,153 +96,86 @@ li{
   font-weight: bold;
 }
 
-.header-info {
+/* select Tickets */
+.select-tickets {
   margin-top: 45px;
   padding-bottom: 50px;
   text-align: center;
 }
 
-.header-greeting {
-  font-size: 30px;
-  color: $orange;
-}
-
-.header-title {
-  font-size: 33px;
-  color: $orange;
-  font-family: "Cocogoose", sans-serif;
-  font-weight: bolder;
-}
-
-.header-info-box {
+.info-box {
+  display: inline-block;
+  padding: 5px 20px;
   color: $dark-gray;
-  margin: 50px auto;
-  background-color: $white;
-  max-width: 720px;
-  font-size: 17px;
+  margin: 40px auto 30px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid $light-gray;
+  vertical-align: center;
 }
 
-.contact-info {
-  color: $dark-gray;
-  font-size: 18px;
+.table-row {
+  border: 2px solid $light-gray;
+  border-collapse: collapse;
 }
 
-.contact-link {
+.table-data {
   color: $dark-gray;
-  font-size: 14px;
   font-weight: bold;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: 1px groove $light-gray;
+  border-collapse: collapse;
 }
 
-/* Logo contest */
-.logo-contest {
-  color: $dark-gray;
-  background-color: $white;
-  border-top: 2px solid $light-gray;
-  border-bottom: 2px solid $light-gray;
+.table-header {
+  background-color: $lighter-gray;
 }
 
-.contest-info {
+.tickets-label {
+  display: block;
+  color: $orange;
   font-size: 16px;
 }
 
-.main-logo {
-  max-width: 340px;
-  height: auto;
-  margin: 45px auto 30px auto;
+.steps {
+  margin: 0 10px;
+  color: $orange;
 }
 
-/* Past Conferences */
-.past-conferences {
+/* Select Room */
+.select-room {
   color: $dark-gray;
+  background-color: $white;
+  border-top: 2px solid $light-gray;
 }
 
-.past-img {
-  color: $white;
-  display: block;
+.room-title {
+  font-size: 18px;
+  vertical-align: middle;
+  padding: 10px 0;
+  background-color: $lighter-gray;
+}
+
+.label-room {
+  padding-left: 10px;
+}
+
+.join-link {
+  font-size: 18px;
+  text-decoration: none;
   background-color: $orange;
-  width: 300px;
-  height: 165px;
-}
-
-/* Partners */
-.partners {
-  background-color: $dark-gray;
-}
-
-.partners-title::after {
-  content: "";
-  margin: 10px auto;
-  display: block;
-  border-bottom: 2px solid $orange;
-  width: 40px;
-}
-
-.partners-list {
-  padding: 0;
-  margin-bottom: 44px;
-}
-
-.partners-logo {
-  width: auto;
-  height: 65px;
-}
-
-/* Footer */
-.legal {
-  padding: 70px 0;
-}
-
-.footer-logo {
-  width: 130px;
-  height: auto;
-  margin-right: 55px;
+  padding: 10px 30px;
+  margin: 30px 0;
+  color: $white;
 }
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
-  .header-info {
+  .select-tickets {
     margin-top: 0;
     padding-top: 140px;
     padding-bottom: 70px;
-  }
-
-  .header-title::after {
-    content: "";
-    margin: 10px auto;
-    display: block;
-    border-bottom: 2px solid $orange;
-    width: 25px;
-  }
-
-  .header-info-box {
-    margin: 30px auto;
-    font-size: 12px;
-  }
-
-  .contact-link::after {
-    content: "";
-    margin-left: 5px;
-    display: inline-block;
-    border-right: 2px solid $dark-gray;
-    border-bottom: 2px solid $dark-gray;
-    width: 10px;
-    height: 10px;
-    transform: rotate(315deg);
-  }
-
-  .contest-info {
-    font-size: 14px;
-  }
-
-  .legal {
-    color: $white;
-    background-color: $dark-gray;
-  }
-
-  .footer-logo {
-    width: 150px;
-    height: auto;
-    margin-right: 55px;
   }
 }
 

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./features/css/about.css">
+  <link rel="stylesheet" href="./features/css/tickets.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -34,125 +34,134 @@
         <div class="nav-bar-bottom container-md d-flex justify-content-between align-items-center">
           <img class="header-logo" src="./features/assets/imgs/logo-small.jpg" alt="Small logo for the ICREN 2020">
           <ul class="d-flex justify-content-center m-0">
-            <li><a class="nav-bottom-links link-about" href="#">About</a></li>
-            <li><a class="nav-bottom-links" href="#">Lorem</a></li>
-            <li><a class="nav-bottom-links" href="#">Lorem</a></li>
-            <li><a class="nav-bottom-links" href="#">Lorem</a></li>
-            <li><a class="nav-bottom-links" href="#">Lorem</a></li>
+            <li><a class="nav-bottom-links link-about" href="./about.html" target="_blank">About</a></li>
+            <li><a class="nav-bottom-links" href="#">Submission</a></li>
+            <li><a class="nav-bottom-links" href="#">Program</a></li>
+            <li><a class="nav-bottom-links" href="#">Dashboard</a></li>
+            <li><a class="nav-bottom-links" href="./index.html" target="_blank">Home</a></li>
           </ul>
-          <a class="button-campaing" href="#">CC Campaing</a>
+          <a class="button-campaing" href="#">Join</a>
         </div>
       </div>
     </nav>
-    <div class="header-info container-md">
+    <div class="select-tickets container-md">
       <h1 class="section-title">Select Tickets</h1>
-      <p class="header-info-box border border-2"><span class="steps text-uppercase">Step 1</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-      <form action="#">
-        <table class="tickets-option">
-          <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-          </tr>
-          <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-          </tr>
-          <tr>
-            <th></th>
-            <td>
-              <label for="normal1"></label>
-              <input type="radio" name="tickets" id="normal1" value="normal-day-1">
-            </td>
-            <td>
-              <label for="normal2"></label>
-              <input type="radio" name="tickets" id="normal2" value="normal-day-2">
-            </td>
-            <td>
-              <label for="normal3"></label>
-              <input type="radio" name="tickets" id="normal3" value="normal-day-3">
-            </td>
-            <td>
-              <label for="normal4"></label>
-              <input type="radio" name="tickets" id="normal4" value="normal-day-all">
-            </td>
-          </tr>
-          <tr>
-            <th></th>
-            <td>
-              <label for="student1"></label>
-              <input type="radio" name="tickets" id="student1" value="student-day-1">
-            </td>
-            <td>
-              <label for="student2"></label>
-              <input type="radio" name="tickets" id="student2" value="student-day-2">
-            </td>
-            <td>
-              <label for="student3"></label>
-              <input type="radio" name="tickets" id="student3" value="student-day-3">
-            </td>
-            <td>
-              <label for="student4"></label>
-              <input type="radio" name="tickets" id="student4" value="student-day-all">
-            </td>
-          </tr>
+      <p class="info-box"><span class="steps text-uppercase">Step 1</span>Please choose the days you wish to attend. (Online Attendance Only)</p>
+      <form action="#" class="d-flex">
+        <table class="mx-auto d-flex flex-column p-2">
+          <tbody class="bg-white">
+            <tr class="table-row table-header">
+              <th class="table-data">Tickets</th>
+              <th class="table-data">Day-1</th>
+              <th class="table-data">Day-2</th>
+              <th class="table-data">Day-3</th>
+              <th class="table-data">All-Days</th>
+            </tr>
+            <tr class="table-row">
+              <th class="table-data">Date</th>
+              <th class="table-data">25.11.20</th>
+              <th class="table-data">26.11.20</th>
+              <th class="table-data">27.11.20</th>
+              <th class="table-data">25 ~ 27.11.20</th>
+            </tr>
+            <tr class="table-row">
+              <th class="table-data">Normal Price</th>
+              <td class="table-data">
+                <label class="tickets-label" for="normal1">&euro; 100.00 </label>
+                <input type="radio" name="tickets" id="normal1" value="normal-day-1">
+              </td>
+              <td class="table-data">
+                <label class="tickets-label" for="normal2">&euro; 100.00 </label>
+                <input type="radio" name="tickets" id="normal2" value="normal-day-2">
+              </td>
+              <td class="table-data">
+                <label class="tickets-label" for="normal3">&euro; 100.00 </label>
+                <input type="radio" name="tickets" id="normal3" value="normal-day-3">
+              </td>
+              <td class="table-data">
+                <label class="tickets-label" for="normal4">&euro; 200.00 </label>
+                <input type="radio" name="tickets" id="normal4" value="normal-day-all">
+              </td>
+            </tr>
+            <tr class="table-row">
+              <th class="table-data">Students Price</th>
+              <td class="table-data">
+                <label class="tickets-label" for="student1">&euro; 50.00 </label>
+                <input type="radio" name="tickets" id="student1" value="student-day-1">
+              </td>
+              <td class="table-data">
+                <label class="tickets-label" for="student2">&euro; 50.00 </label>
+                <input type="radio" name="tickets" id="student2" value="student-day-2">
+              </td>
+              <td class="table-data">
+                <label class="tickets-label" for="student3">&euro; 50.00 </label>
+                <input type="radio" name="tickets" id="student3" value="student-day-3">
+              </td>
+              <td class="table-data">
+                <label class="tickets-label" for="student4">&euro; 100.00 </label>
+                <input type="radio" name="tickets" id="student4" value="student-day-all">
+              </td>
+            </tr>
+          </tbody>
         </table>
       </form>
     </div>
   </header>
 
   <main>
-    <section class="logo-contest">
+    <section class="select-room">
       <div class="container-md text-center">
-        <h2 class="section-title m-2">Select Your Lunch</h2>
-        <p class="contest-info m-0"><span class="steps text-uppercase">Step 2</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-        <div>
-          <h3></h3>
-          <form action="#">
-            <label for="room1"></label>
+        <h2 class="section-title m-2">Select Your Room</h2>
+        <p class="info-box"><span class="steps text-uppercase">Step 2</span>Please choose the online room in which you wish to attend.</p>
+        <div class="border mb-5">
+          <h3 class="room-title">Choose a room to attend on 25.11.2020</h3>
+          <form action="#" class="room-form py-3">
+            <label class="label-room" for="room1">Room 01</label>
             <input type="radio" name="room" id="room1" value="room-1">
-            <label for="room2"></label>
+            <label class="label-room" for="room2">Room 02</label>
             <input type="radio" name="room" id="room2" value="room-2">
-            <label for="room3"></label>
+            <label class="label-room" for="room3">Room 03</label>
             <input type="radio" name="room" id="room3" value="room-3">
-            <label for="room4"></label>
+            <label class="label-room" for="room4">Room 04</label>
             <input type="radio" name="room" id="room4" value="room-4">
-            <label for="room5"></label>
+            <label class="label-room" for="room5">Not Attending</label>
             <input type="radio" name="room" id="room5" value="room-5">
           </form>
         </div>
+        <div class="border mb-5">
+          <h3 class="room-title">Choose a room to attend on 26.11.2020</h3>
+          <form action="#" class="room-form py-3">
+            <label class="label-room" for="room1">Room 01</label>
+            <input type="radio" name="room" id="room1" value="room-1">
+            <label class="label-room" for="room2">Room 02</label>
+            <input type="radio" name="room" id="room2" value="room-2">
+            <label class="label-room" for="room3">Room 03</label>
+            <input type="radio" name="room" id="room3" value="room-3">
+            <label class="label-room" for="room4">Room 04</label>
+            <input type="radio" name="room" id="room4" value="room-4">
+            <label class="label-room" for="room5">Not Attending</label>
+            <input type="radio" name="room" id="room5" value="room-5">
+          </form>
+        </div>
+        <div class="border mb-5">
+          <h3 class="room-title">Choose a room to attend on 27.11.2020</h3>
+          <form action="#" class="room-form py-3">
+            <label class="label-room" for="room1">Room 01</label>
+            <input type="radio" name="room" id="room1" value="room-1">
+            <label class="label-room" for="room2">Room 02</label>
+            <input type="radio" name="room" id="room2" value="room-2">
+            <label class="label-room" for="room3">Room 03</label>
+            <input type="radio" name="room" id="room3" value="room-3">
+            <label class="label-room" for="room4">Room 04</label>
+            <input type="radio" name="room" id="room4" value="room-4">
+            <label class="label-room" for="room5">Not Attending</label>
+            <input type="radio" name="room" id="room5" value="room-5">
+          </form>
+        </div>
+        <a class="join-link" href="#">Join ICREN 2020</a>
       </div>
     </section>
   </main>
-
-  <!--footer class="">
-    <section class="d-md-none partners text-white position-relative">
-      <div class="container-md d-flex flex-column align-items-center">
-        <h2 class="section-title partners-title">Partners</h2>
-        <ul class="partners-list d-flex justify-content-center flex-wrap">
-          <li class="ps-3 pb-3"><img class="partners-logo" src="./features/assets/imgs/imperix-logo.png" alt="Imperix logo"></li>
-          <li class="ps-3 pb-3"><img class="partners-logo" src="./features/assets/imgs/opal-rt-logo.png" alt="OPAL RT Technologies logo"></li>
-          <li class="ps-3 pb-3"><img class="partners-logo" src="./features/assets/imgs/mdpi-energies-logo.png" alt="MDPI Energies logo"></li>
-          <li class="ps-3 pb-3"><img class="partners-logo" src="./features/assets/imgs/american-elements-logo.png" alt="American Elements logo"></li>
-        </ul>
-      </div>
-    </section>
-    <section class="legal">
-      <div class="container-md d-flex align-items-center">
-        <img class="footer-logo" src="./features/assets/imgs/logo-large.jpg" alt="Large logo for the ICREN 2020">
-        <div class="legal-info">
-          <p class="mb-1">Blah, blah blah blah blah</p>
-          <p class="mb-0 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat.</p>
-        </div>
-      </div>
-    </section>
-  </footer-->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
