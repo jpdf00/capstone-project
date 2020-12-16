@@ -1,6 +1,3 @@
-/* meyerweb Reset */
-@use '_meyerweb-reset';
-
 /* Variables */
 $black: #272a31;
 $dark-gray: #414246;
@@ -28,6 +25,10 @@ $orange: #ec5242;
 
 * {
   font-family: 'Lato', sans-serif;
+}
+
+li {
+  list-style: none;
 }
 
 /* Header */
@@ -62,7 +63,7 @@ $orange: #ec5242;
 .header-logo {
   width: auto;
   height: 30px;
-  margin-right: 55px;
+  margin-right: 100px;
 }
 
 .nav-bottom-links {
@@ -107,7 +108,7 @@ $orange: #ec5242;
 .header-info-box {
   background-color: $light-gray;
   max-width: 530px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .date-info {
@@ -262,9 +263,19 @@ $orange: #ec5242;
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
-
-.header-info {
+  .header-info {
     margin-top: 0;
     padding-top: 140px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-info {
+    margin-top: 0;
+    padding-top: 140px;
+  }
+
+  .header-logo {
+    margin-right: 230px;
   }
 }
