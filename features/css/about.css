@@ -26,7 +26,7 @@ li {
 
 /* Header */
 .header {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
 }
 
 .fa-bars {
@@ -93,11 +93,12 @@ li {
 .header-title {
   font-size: 33px;
   color: #ec5242;
-  font-family: "Cocogoose", sans-serif;
+  font-family: "COCOGOOSE", "Lato", sans-serif;
   font-weight: bolder;
 }
 
 .header-info-box {
+  padding: 10px;
   color: #414246;
   margin: 50px auto;
   background-color: #fff;

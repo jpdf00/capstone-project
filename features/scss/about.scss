@@ -2,6 +2,7 @@
 $black: #272a31;
 $dark-gray: #414246;
 $light-gray: #d3d3d3;
+$lighter-gray: #f7f7f7;
 $white: #fff;
 $orange: #ec5242;
 
@@ -33,7 +34,7 @@ li {
 
 /* Header */
 .header {
-  background-color: $light-gray;
+  background-color: $lighter-gray;
 }
 
 .fa-bars {
@@ -100,11 +101,12 @@ li {
 .header-title {
   font-size: 33px;
   color: $orange;
-  font-family: "Cocogoose", sans-serif;
+  font-family: 'COCOGOOSE', 'Lato', sans-serif;
   font-weight: bolder;
 }
 
 .header-info-box {
+  padding: 10px;
   color: $dark-gray;
   margin: 50px auto;
   background-color: $white;
