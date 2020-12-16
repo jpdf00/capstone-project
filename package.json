@@ -1,12 +1,12 @@
 {
-  "name": "capstone-project",
+  "name": "newsweek_bootstrap",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch features/scss/tickets.scss features/css/tickets.css",
-    "stylelint": "npx stylelint '**/*.scss'"
+		"sass": "sass --watch utilities/scss/style.scss utilities/scss/style.css",
+		"stylelint": "npx stylelint '**/*.scss'"
   },
   "repository": {
     "type": "git",
