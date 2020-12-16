@@ -1,12 +1,5 @@
 /* Variables */
-$black: #272a31;
-$dark-gray: #414246;
-$light-gray: #d3d3d3;
-$white: #fff;
-$orange: #ec5242;
-
 /* Global */
-
 .section-title {
   font-size: 18px;
   font-weight: bold;
@@ -19,21 +12,21 @@ $orange: #ec5242;
   content: "";
   margin: 10px auto;
   display: block;
-  border-bottom: 2px solid $orange;
+  border-bottom: 2px solid #ec5242;
   width: 25px;
 }
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-li{
+li {
   list-style: none;
 }
 
 /* Header */
 .header {
-  background-color: $light-gray;
+  background-color: #d3d3d3;
 }
 
 .fa-bars {
@@ -48,7 +41,7 @@ li{
 
 .nav-bar-top {
   height: 30px;
-  background-color: $black;
+  background-color: #272a31;
 }
 
 .nav-top-links {
@@ -57,7 +50,7 @@ li{
 
 .nav-bar-bottom {
   height: 65px;
-  background-color: $white;
+  background-color: #fff;
 }
 
 .header-logo {
@@ -67,21 +60,21 @@ li{
 }
 
 .nav-bottom-links {
-  color: $dark-gray;
+  color: #414246;
   text-decoration: none;
   padding-right: 34px;
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .link-about {
-  color: $orange;
+  color: #ec5242;
 }
 
 .button-campaing {
-  border: solid $orange 4px;
+  border: solid #ec5242 4px;
   padding: 6px 12px;
   text-decoration: none;
-  color: $orange;
+  color: #ec5242;
   font-size: 15px;
   font-weight: bold;
 }
@@ -94,41 +87,41 @@ li{
 
 .header-greeting {
   font-size: 30px;
-  color: $orange;
+  color: #ec5242;
 }
 
 .header-title {
   font-size: 33px;
-  color: $orange;
+  color: #ec5242;
   font-family: "Cocogoose", sans-serif;
   font-weight: bolder;
 }
 
 .header-info-box {
-  color: $dark-gray;
+  color: #414246;
   margin: 50px auto;
-  background-color: $white;
+  background-color: #fff;
   max-width: 720px;
   font-size: 17px;
 }
 
 .contact-info {
-  color: $dark-gray;
+  color: #414246;
   font-size: 18px;
 }
 
 .contact-link {
-  color: $dark-gray;
+  color: #414246;
   font-size: 14px;
   font-weight: bold;
 }
 
 /* Logo contest */
 .logo-contest {
-  color: $dark-gray;
-  background-color: $white;
-  border-top: 2px solid $light-gray;
-  border-bottom: 2px solid $light-gray;
+  color: #414246;
+  background-color: #fff;
+  border-top: 2px solid #d3d3d3;
+  border-bottom: 2px solid #d3d3d3;
 }
 
 .contest-info {
@@ -143,27 +136,27 @@ li{
 
 /* Past Conferences */
 .past-conferences {
-  color: $dark-gray;
+  color: #414246;
 }
 
 .past-img {
-  color: $white;
+  color: #fff;
   display: block;
-  background-color: $orange;
+  background-color: #ec5242;
   width: 300px;
   height: 165px;
 }
 
 /* Partners */
 .partners {
-  background-color: $dark-gray;
+  background-color: #414246;
 }
 
 .partners-title::after {
   content: "";
   margin: 10px auto;
   display: block;
-  border-bottom: 2px solid $orange;
+  border-bottom: 2px solid #ec5242;
   width: 40px;
 }
 
@@ -200,7 +193,7 @@ li{
     content: "";
     margin: 10px auto;
     display: block;
-    border-bottom: 2px solid $orange;
+    border-bottom: 2px solid #ec5242;
     width: 25px;
   }
 
@@ -213,8 +206,8 @@ li{
     content: "";
     margin-left: 5px;
     display: inline-block;
-    border-right: 2px solid $dark-gray;
-    border-bottom: 2px solid $dark-gray;
+    border-right: 2px solid #414246;
+    border-bottom: 2px solid #414246;
     width: 10px;
     height: 10px;
     transform: rotate(315deg);
@@ -225,8 +218,8 @@ li{
   }
 
   .legal {
-    color: $white;
-    background-color: $dark-gray;
+    color: #fff;
+    background-color: #414246;
   }
 
   .footer-logo {
@@ -235,9 +228,10 @@ li{
     margin-right: 55px;
   }
 }
-
 @media screen and (min-width: 992px) {
   .header-logo {
     margin-right: 230px;
   }
 }
+
+/*# sourceMappingURL=tickets.css.map */
