@@ -158,15 +158,6 @@ $orange: #ec5242;
   background-color: $dark-gray;
 }
 
-.cover {
-  background-color: $dark-gray;
-  opacity: .5;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-}
-
 .partners-title::after {
   content: "";
   margin: 10px auto;
@@ -180,29 +171,9 @@ $orange: #ec5242;
   margin-bottom: 44px;
 }
 
-.partners-logo-mozilla {
+.partners-logo {
   width: auto;
-  height: 30px;
-}
-
-.partners-logo-google {
-  width: auto;
-  height: 30px;
-}
-
-.partners-logo-naver {
-  width: auto;
-  height: 30px;
-}
-
-.partners-logo-daumkakao {
-  width: 86px;
-  height: auto;
-}
-
-.partners-logo-airbnb {
-  width: auto;
-  height: 30px;
+  height: 65px;
 }
 
 /* Footer */
