@@ -2,11 +2,11 @@
 $black: #272a31;
 $dark-gray: #414246;
 $light-gray: #d3d3d3;
+$lighter-gray: #f7f7f7;
 $white: #fff;
 $orange: #ec5242;
 
 /* Global */
-
 .section-title {
   font-size: 18px;
   font-weight: bold;
@@ -33,7 +33,7 @@ li {
 
 /* Header */
 .header {
-  background-color: $light-gray;
+  background-color: $lighter-gray;
 }
 
 .fa-bars {
@@ -101,19 +101,20 @@ li {
 .header-title {
   font-size: 47px;
   color: $orange;
-  font-family: "Cocogoose", sans-serif;
+  font-family: 'COCOGOOSE', 'Lato', sans-serif;
   font-weight: bolder;
 }
 
 .header-info-box {
-  background-color: $light-gray;
+  background-color: $lighter-gray;
   max-width: 530px;
   font-size: 14px;
 }
 
 .date-info {
-  font-size: 25px;
-  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'COCOGOOSE', 'Lato', sans-serif;
+  font-weight: bold;
 }
 
 .location-info {
@@ -127,7 +128,7 @@ li {
 
 .main-program-item {
   width: 100%;
-  height: 100%;
+  max-height: 100%;
   color: $white;
 }
 
@@ -177,6 +178,8 @@ li {
 
 .featured-photo {
   margin: 12px 12px;
+  width: 126px;
+  height: auto;
 }
 
 .featured-text-box {
