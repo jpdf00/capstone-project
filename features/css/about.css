@@ -234,7 +234,7 @@ table {
   margin: 50px auto;
   background-color: #fff;
   max-width: 720px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .contact-info {
@@ -256,6 +256,10 @@ table {
   border-bottom: 2px solid #d3d3d3;
 }
 
+.contest-info {
+  font-size: 16px;
+}
+
 .main-logo {
   max-width: 340px;
   height: auto;
@@ -265,10 +269,6 @@ table {
 /* Past Conferences */
 .past-conferences {
   color: #414246;
-}
-
-.contest-info {
-  font-size: 12px;
 }
 
 .past-img {
@@ -375,7 +375,7 @@ table {
   }
 
   .contest-info {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .legal {

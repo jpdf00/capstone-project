@@ -108,7 +108,7 @@ $orange: #ec5242;
   margin: 50px auto;
   background-color: $white;
   max-width: 720px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .contact-info {
@@ -130,6 +130,10 @@ $orange: #ec5242;
   border-bottom: 2px solid $light-gray;
 }
 
+.contest-info {
+  font-size: 16px;
+}
+
 .main-logo {
   max-width: 340px;
   height: auto;
@@ -139,10 +143,6 @@ $orange: #ec5242;
 /* Past Conferences */
 .past-conferences {
   color: $dark-gray;
-}
-
-.contest-info {
-  font-size: 12px;
 }
 
 .past-img {
@@ -249,7 +249,7 @@ $orange: #ec5242;
   }
 
   .contest-info {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .legal {
