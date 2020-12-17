@@ -93,13 +93,13 @@ li {
 }
 
 .header-greeting {
-  font-size: 30px;
+  font-size: 20px;
   color: $orange;
   margin: 0;
 }
 
 .header-title {
-  font-size: 47px;
+  font-size: 25px;
   color: $orange;
   font-family: 'COCOGOOSE', 'Lato', sans-serif;
   font-weight: bolder;
@@ -257,6 +257,7 @@ li {
 /* Footer */
 .legal {
   padding: 70px 0;
+  font-size: 12px;
 }
 
 .footer-logo {
@@ -270,6 +271,19 @@ li {
   .header-info {
     margin-top: 0;
     padding-top: 140px;
+  }
+
+  .header-greeting {
+    font-size: 30px;
+  }
+
+  .header-title {
+    font-size: 45px;
+  }
+
+  .legal {
+    padding: 70px 0;
+    font-size: 18px;
   }
 }
 
