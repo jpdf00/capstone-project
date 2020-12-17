@@ -1,4 +1,3 @@
-/* Variables */
 $black: #272a31;
 $dark-gray: #414246;
 $light-gray: #d3d3d3;
@@ -7,7 +6,6 @@ $white: #fff;
 $orange: #ec5242;
 
 /* Global */
-
 .section-title {
   font-size: 18px;
   font-weight: bold;
@@ -94,12 +92,12 @@ li {
 }
 
 .header-greeting {
-  font-size: 30px;
+  font-size: 20px;
   color: $orange;
 }
 
 .header-title {
-  font-size: 33px;
+  font-size: 25px;
   color: $orange;
   font-family: 'COCOGOOSE', 'Lato', sans-serif;
   font-weight: bolder;
@@ -129,7 +127,6 @@ li {
 .logo-contest {
   color: $dark-gray;
   background-color: $white;
-  border-top: 2px solid $light-gray;
   border-bottom: 2px solid $light-gray;
 }
 
@@ -138,7 +135,7 @@ li {
 }
 
 .main-logo {
-  max-width: 340px;
+  max-width: 250px;
   height: auto;
   margin: 45px auto 30px auto;
 }
@@ -152,7 +149,7 @@ li {
   color: $white;
   display: block;
   background-color: $orange;
-  width: 300px;
+  width: 265px;
   height: 165px;
 }
 
@@ -198,6 +195,14 @@ li {
     padding-bottom: 70px;
   }
 
+  .header-greeting {
+    font-size: 30px;
+  }
+
+  .header-title {
+    font-size: 45px;
+  }
+
   .header-title::after {
     content: "";
     margin: 10px auto;
@@ -222,8 +227,24 @@ li {
     transform: rotate(315deg);
   }
 
+  .logo-contest {
+    border-top: 2px solid $light-gray;
+  }
+
   .contest-info {
     font-size: 14px;
+  }
+
+  .main-logo {
+    max-width: 340px;
+  }
+
+  .past-img {
+    color: $white;
+    display: block;
+    background-color: $orange;
+    width: 300px;
+    height: 165px;
   }
 
   .legal {
