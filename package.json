@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"sass": "sass --watch features/scss/about.scss features/css/about.css",
+		"sass": "sass --watch features/scss/tickets.scss features/css/tickets.css",
 		"stylelint": "npx stylelint '**/*.scss'"
   },
   "repository": {

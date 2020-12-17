@@ -1,4 +1,3 @@
-/* Variables */
 $black: #272a31;
 $dark-gray: #414246;
 $light-gray: #d3d3d3;
@@ -113,18 +112,24 @@ li {
   border: 1px solid $light-gray;
 }
 
+.table-body {
+  border: 1px groove $light-gray;
+}
+
 .table-row {
-  border: 2px solid $light-gray;
+  display: flex;
   border-collapse: collapse;
 }
 
 .table-data {
   color: $dark-gray;
   font-weight: bold;
-  font-size: 14px;
-  padding: 10px 20px;
+  font-size: 10px;
+  padding: 2px 3px;
   border: 1px groove $light-gray;
-  border-collapse: collapse;
+  display: inline-block;
+  margin-bottom: 0;
+  min-width: 20%;
 }
 
 .table-header {
@@ -134,7 +139,7 @@ li {
 .tickets-label {
   display: block;
   color: $orange;
-  font-size: 16px;
+  font-size: 10px;
 }
 
 .steps {
@@ -170,12 +175,66 @@ li {
   color: $white;
 }
 
+/* Partners */
+.partners {
+  background-color: $dark-gray;
+}
+
+.partners-title::after {
+  content: "";
+  margin: 10px auto;
+  display: block;
+  border-bottom: 2px solid $orange;
+  width: 40px;
+}
+
+.partners-list {
+  padding: 0;
+  margin-bottom: 44px;
+}
+
+.partners-logo {
+  width: auto;
+  height: 65px;
+}
+
+/* Footer */
+.legal {
+  padding: 70px 0;
+}
+
+.footer-logo {
+  width: 130px;
+  height: auto;
+  margin-right: 55px;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .select-tickets {
     margin-top: 0;
     padding-top: 140px;
     padding-bottom: 70px;
+  }
+
+  .table-data {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .tickets-label {
+    font-size: 16px;
+  }
+
+  .legal {
+    color: $white;
+    background-color: $dark-gray;
+  }
+
+  .footer-logo {
+    width: 150px;
+    height: auto;
+    margin-right: 55px;
   }
 }
 
