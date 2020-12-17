@@ -28,10 +28,41 @@ li {
   background-color: #f7f7f7;
 }
 
-.fa-bars {
-  font-size: 30px;
+.mobile-menu {
   padding-left: 18px;
   padding-top: 12px;
+}
+
+.menu {
+  display: none;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2px 0 2px 20px;
+  margin: 0 5px;
+  box-shadow: 0 10px 10px -5px #d3d3d3;
+}
+
+#toggle-open:checked ~ .menu {
+  display: flex;
+}
+
+#toggle-open:checked ~ .menu-close {
+  display: flex;
+}
+
+#toggle-open:not(:checked) ~ .menu {
+  display: none;
+}
+
+#toggle-open:not(:checked) ~ .menu-close {
+  display: none;
+}
+
+.menu-links {
+  color: #414246;
+  text-decoration: none;
+  padding-right: 20px;
+  opacity: 0.75;
 }
 
 .nav-bar {

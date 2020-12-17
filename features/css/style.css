@@ -39,7 +39,7 @@ li {
   border-radius: 20px;
   padding: 2px 0 2px 20px;
   margin: 0 5px;
-  box-shadow: 0px 10px 10px -5px #d3d3d3;
+  box-shadow: 0 10px 10px -5px #d3d3d3;
 }
 
 #toggle-open:checked ~ .menu {

@@ -19,7 +19,17 @@
 <!-- Header -->
   <header class="header">
     <!-- Nav bar -->
-    <i class="fas fa-bars d-md-none"></i>
+    <div class="mobile-menu d-md-none d-flex">
+      <label for="toggle-open"><i class="fas fa-bars fs-1"></i></label>
+      <input class="d-none" type="radio" name="toggle" id="toggle-open">
+      <ul class="menu">
+        <li><a class="menu-links link-about" href="#">About</a></li>
+        <li><a class="menu-links" href="./tickets.html">Join</a></li>
+        <li><a class="menu-links" href="./index.html">Home</a></li>
+      </ul>
+      <label class="menu-close" for="toggle-close"><i class="fas fa-times"></i></label>
+      <input class="d-none" type="radio" name="toggle" id="toggle-close">
+    </div>
     <nav class="nav-bar d-none d-md-flex flex-column shadow position-fixed top-0 w-100">
       <div class="nav-bar-top">
         <div class="container-md">
