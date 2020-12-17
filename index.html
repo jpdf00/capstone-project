@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Head - Contains link to css stylesheet, bootstrap, fonts used (Cocogoose and Lato) and for icons -->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,11 +16,22 @@
   <title>ICREN 2020 - International Conference on Renewable Energy</title>
 </head>
 <!-- Body -->
+
 <body>
-<!-- Header -->
+  <!-- Header -->
   <header class="header">
     <!-- Nav bar -->
-    <i class="fas fa-bars d-md-none"></i>
+    <div class="mobile-menu d-md-none d-flex">
+      <label for="toggle-open"><i class="fas fa-bars fs-1"></i></label>
+      <input class="d-none" type="radio" name="toggle" id="toggle-open">
+      <ul class="menu">
+        <li><a class="menu-links link-about" href="./about.html">About</a></li>
+        <li><a class="menu-links" href="./tickets.html">Join</a></li>
+        <li><a class="menu-links" href="#">Home</a></li>
+      </ul>
+      <label class="menu-close" for="toggle-close"><i class="fas fa-times"></i></label>
+      <input class="d-none" type="radio" name="toggle" id="toggle-close">
+    </div>
     <nav class="nav-bar d-none d-md-flex flex-column shadow position-fixed top-0 w-100">
       <div class="nav-bar-top">
         <div class="container-md">
@@ -50,12 +62,13 @@
     <div class="header-info container-md">
       <p class="header-greeting">Research for a better future</p>
       <h1 class="header-title text-uppercase">International Conference on<br>Renewable Energy<br>2020</h1>
-      <p class="header-info-box border border-white border-4">The next in the series of the International Conference on Renewable Energy will gather an excellent group of Plenary speakers from different topics and will be held online, from Rome, on November.</p>
+      <p class="header-info-box border border-white border-4">The next in the series of the International Conference on Renewable Energy will gather an excellent group of Plenary speakers from different topics and will be held online, from Rome, on
+        November.</p>
       <h2 class="date-info">2020.11.25(WED) ~ 27(FRI)</h2>
       <p class="location-info m-0">@ Rome. Only online attendance due to COVID-19 safety restrictions.</p>
     </div>
   </header>
-<!-- Main -->
+  <!-- Main -->
   <main>
     <!-- Section about the program -->
     <section class="main-program">
@@ -203,7 +216,7 @@
       </div>
     </section>
   </main>
-<!-- footer -->
+  <!-- footer -->
   <footer>
     <!-- Section about partners -->
     <section class="partners text-white position-relative">
@@ -223,7 +236,7 @@
         <img class="footer-logo" src="./features/assets/imgs/premc-logo.jpg" alt="Large logo for the ICREN 2020">
         <div class="legal-info">
           <p class="mb-1">2020 PREMC SAS. All rights Reserved</p>
-          <p class="mb-0">PREMC SAS<br>3 bis rue Léon Blum,  92260 Fontenay Aux Roses, FRANCE.<br>email: info@premc.org<br>phone: +331.74.50.65.74 / +331.46.60.89.40<br>web: www.premc.org</p>
+          <p class="mb-0">PREMC SAS<br>3 bis rue Léon Blum, 92260 Fontenay Aux Roses, FRANCE.<br>email: info@premc.org<br>phone: +331.74.50.65.74 / +331.46.60.89.40<br>web: www.premc.org</p>
         </div>
       </div>
     </section>
@@ -231,4 +244,5 @@
   <!-- bootstrap script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
+
 </html>
