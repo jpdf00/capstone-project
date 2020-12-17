@@ -261,6 +261,7 @@ li {
     margin-right: 55px;
   }
 }
+
 @media screen and (min-width: 992px) {
   .header-logo {
     margin-right: 230px;
