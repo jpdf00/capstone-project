@@ -2,15 +2,13 @@
 
 # HTML & CSS 2.0 - Project 4: Capstone Project - Conference Page
 
-![screenshot](./features/assets/imgs/screenshot-main.png)
-![screenshot](./features/assets/imgs/screenshot-about.png)
-![screenshot](./features/assets/imgs/screenshot-tickets.png)
-
 This is the Capstone project in Microverse's HTML and CSS module. It consists of the creation of a page based on this guide [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) using Boostrap and the preprocessor SASS.
 It consists of 3 pages (Main, About and Tickets), designed using the layout, colors and fonts shown on the design guide.
 I used Responsive Web Design techniques to style all 3 pages according to the device is being used.
 It has 1 breakpoint being style for Mobile Screens and Desktop Screens. I also used grid and flexbox techniques so the elements within the page would ajust to changes in the viewport size.
 For the content I based the page on the International Conference on Renewable Energies held in 2020. Used only as an example, not all information is factual.
+
+![screenshot](./features/assets/imgs/screenshot-main.png)
 
 ## Built With
 
