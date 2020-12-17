@@ -9,6 +9,8 @@ It has 1 breakpoint being style for Mobile Screens and Desktop Screens. I also u
 For the content I based the page on the International Conference on Renewable Energies held in 2020. Used only as an example, not all information is factual.
 
 ![screenshot](./features/assets/imgs/screenshot-main.png)
+![screenshot](./features/assets/imgs/screenshot-about.png)
+![screenshot](./features/assets/imgs/screenshot-tickets.png)
 
 ## Built With
 
@@ -20,8 +22,6 @@ For the content I based the page on the International Conference on Renewable En
 ## Live Demo
 
 [HTML & CSS 2.0 - Project 4: Capstone Project - Conference Page - Main](https://jpdf00.github.io/capstone-project/)
-[HTML & CSS 2.0 - Project 4: Capstone Project - Conference Page - About](https://jpdf00.github.io/capstone-project/about.html)
-[HTML & CSS 2.0 - Project 4: Capstone Project - Conference Page - Tickets](https://jpdf00.github.io/capstone-project/tickets.html)
 
 ## Getting Started
 
