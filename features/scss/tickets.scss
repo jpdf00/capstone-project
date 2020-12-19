@@ -11,7 +11,7 @@ $orange: #ec5242;
   font-weight: bold;
   line-height: 18px;
   padding-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .section-title::after {
@@ -19,7 +19,7 @@ $orange: #ec5242;
   margin: 10px auto;
   display: block;
   border-bottom: 2px solid $orange;
-  width: 50px;
+  width: 25px;
 }
 
 * {
@@ -28,6 +28,16 @@ $orange: #ec5242;
 
 li {
   list-style: none;
+}
+
+.steps::before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  background-color: $orange;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
 }
 
 /* Header */
@@ -116,162 +126,97 @@ li {
   font-weight: bold;
 }
 
-.header-info {
-  color: $dark-gray;
+/* select Tickets */
+.select-tickets {
   margin-top: 45px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
-.header-greeting {
-  font-size: 20px;
-  color: $orange;
-  margin: 0;
-}
-
-.header-title {
-  font-size: 25px;
-  color: $orange;
-  font-family: 'COCOGOOSE', 'Lato', sans-serif;
-  font-weight: bolder;
-}
-
-.header-info-box {
-  padding: 10px;
-  background-color: $lighter-gray;
-  max-width: 530px;
-  font-size: 14px;
-}
-
-.date-info {
-  font-size: 20px;
-  font-family: 'COCOGOOSE', 'Lato', sans-serif;
-  font-weight: bold;
-}
-
-.location-info {
-  font-size: 18px;
-}
-
-/* Main Program */
-.main-program {
-  background-color: $black;
-}
-
-.main-program-item {
-  width: 100%;
-  max-height: 100%;
-  color: $white;
-}
-
-.main-program-cover {
-  width: 100%;
-  height: 100%;
-  background-color: $white;
-  opacity: 0.1;
-}
-
-.program-icon {
-  font-size: 50px;
-}
-
-.program-title {
-  color: $orange;
+.info-box {
+  display: inline-block;
+  padding: 5px 20px;
+  color: $dark-gray;
+  margin: 40px auto 30px;
   font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid $light-gray;
 }
 
-.program-info {
-  font-size: 12px;
+.table-body {
+  border: 1px groove $light-gray;
 }
 
-.program-link {
+.table-row {
+  display: flex;
+  border-collapse: collapse;
+}
+
+.table-data {
+  color: $dark-gray;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 2px 3px;
+  border: 1px groove $light-gray;
+  display: inline-block;
+  margin-bottom: 0;
+  min-width: 20%;
+}
+
+.table-header {
+  background-color: $lighter-gray;
+}
+
+.tickets-label {
+  display: block;
+  color: $orange;
+  font-size: 10px;
+}
+
+.steps {
+  margin: 0 10px;
+  color: $orange;
+}
+
+/* Select Room */
+.select-room {
+  color: $dark-gray;
+  background-color: $white;
+  border-top: 2px solid $light-gray;
+  padding-bottom: 40px;
+}
+
+.room-title {
   font-size: 18px;
-  margin-top: 65px;
-  padding-bottom: 80px;
+  vertical-align: middle;
+  padding: 10px 0;
+  background-color: $lighter-gray;
+}
+
+.label-room {
+  padding-left: 10px;
 }
 
 .join-link {
   font-size: 18px;
   text-decoration: none;
-  display: inline-block;
   background-color: $orange;
-  padding: 30px;
+  padding: 10px 30px;
   margin: 30px 0;
-}
-
-/* Featured Speakers */
-.featured-speakers {
-  color: $dark-gray;
-}
-
-.featured-box {
-  margin-top: 45px;
-}
-
-.featured-photo {
-  margin: 12px 12px;
-  width: 126px;
-  height: auto;
-}
-
-.featured-text-box {
-  padding-top: 10px;
-  margin: 0 0 50px 110px;
-  height: 140px;
-}
-
-.speakers-name {
-  color: $black;
-  font-size: 17px;
-  font-weight: bold;
-}
-
-.speakers-qualification {
-  color: $orange;
-  font-size: 12px;
-  font-style: italic;
-}
-
-.speakers-qualification::after {
-  content: "";
-  margin-top: 10px;
-  display: block;
-  border-bottom: 1px solid $light-gray;
-  width: 20px;
-}
-
-.speakers-info {
-  color: $black;
-  font-size: 12px;
-}
-
-.more-btn {
-  margin: 50px 0;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-}
-
-.more-link {
-  text-decoration: none;
-  color: $black;
-  font-size: 18px;
-}
-
-.more-link::after {
-  content: "";
-  margin-left: 10px;
-  display: inline-block;
-  border-right: 2px solid $orange;
-  border-bottom: 2px solid $orange;
-  width: 10px;
-  height: 10px;
-  transform: rotate(45deg);
+  color: $white;
 }
 
 /* Partners */
 .partners {
   background-color: $dark-gray;
+}
+
+.partners-title::after {
+  content: "";
+  margin: 10px auto;
+  display: block;
+  border-bottom: 2px solid $orange;
+  width: 40px;
 }
 
 .partners-list {
@@ -287,7 +232,6 @@ li {
 /* Footer */
 .legal {
   padding: 70px 0;
-  font-size: 12px;
 }
 
 .footer-logo {
@@ -298,26 +242,30 @@ li {
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
-  .header-info {
+  .select-tickets {
     margin-top: 0;
     padding-top: 140px;
+    padding-bottom: 70px;
   }
 
-  .header-greeting {
-    font-size: 30px;
+  .table-data {
+    padding: 10px 20px;
+    font-size: 14px;
   }
 
-  .header-title {
-    font-size: 45px;
-  }
-
-  .date-info {
-    font-size: 30px;
+  .tickets-label {
+    font-size: 16px;
   }
 
   .legal {
-    padding: 70px 0;
-    font-size: 18px;
+    color: $white;
+    background-color: $dark-gray;
+  }
+
+  .footer-logo {
+    width: 150px;
+    height: auto;
+    margin-right: 55px;
   }
 }
 

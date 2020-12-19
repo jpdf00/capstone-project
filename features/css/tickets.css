@@ -1,0 +1,271 @@
+/* Global */
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  padding-top: 30px;
+  margin-bottom: 5px;
+}
+
+.section-title::after {
+  content: "";
+  margin: 10px auto;
+  display: block;
+  border-bottom: 2px solid #ec5242;
+  width: 25px;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.steps::before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  background-color: #ec5242;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+}
+
+/* Header */
+.header {
+  background-color: #f7f7f7;
+}
+
+.mobile-menu {
+  padding-left: 18px;
+  padding-top: 12px;
+}
+
+.menu {
+  display: none;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2px 0 2px 20px;
+  margin: 0 5px;
+  box-shadow: 0 10px 10px -5px #d3d3d3;
+}
+
+#toggle-open:checked ~ .menu {
+  display: flex;
+}
+
+#toggle-open:checked ~ .menu-close {
+  display: flex;
+}
+
+#toggle-open:not(:checked) ~ .menu {
+  display: none;
+}
+
+#toggle-open:not(:checked) ~ .menu-close {
+  display: none;
+}
+
+.menu-links {
+  color: #414246;
+  text-decoration: none;
+  padding-right: 20px;
+  opacity: 0.75;
+}
+
+.nav-bar {
+  z-index: 999;
+}
+
+.nav-bar-top {
+  height: 30px;
+  background-color: #272a31;
+}
+
+.nav-top-links {
+  text-decoration: none;
+}
+
+.nav-bar-bottom {
+  height: 65px;
+  background-color: #fff;
+}
+
+.header-logo {
+  width: auto;
+  height: 30px;
+  margin-right: 100px;
+}
+
+.nav-bottom-links {
+  color: #414246;
+  text-decoration: none;
+  padding-right: 34px;
+  opacity: 0.75;
+}
+
+.link-about {
+  color: #ec5242;
+}
+
+.button-campaing {
+  border: solid #ec5242 4px;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #ec5242;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* select Tickets */
+.select-tickets {
+  margin-top: 45px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.info-box {
+  display: inline-block;
+  padding: 5px 20px;
+  color: #414246;
+  margin: 40px auto 30px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid #d3d3d3;
+}
+
+.table-body {
+  border: 1px groove #d3d3d3;
+}
+
+.table-row {
+  display: flex;
+  border-collapse: collapse;
+}
+
+.table-data {
+  color: #414246;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 2px 3px;
+  border: 1px groove #d3d3d3;
+  display: inline-block;
+  margin-bottom: 0;
+  min-width: 20%;
+}
+
+.table-header {
+  background-color: #f7f7f7;
+}
+
+.tickets-label {
+  display: block;
+  color: #ec5242;
+  font-size: 10px;
+}
+
+.steps {
+  margin: 0 10px;
+  color: #ec5242;
+}
+
+/* Select Room */
+.select-room {
+  color: #414246;
+  background-color: #fff;
+  border-top: 2px solid #d3d3d3;
+  padding-bottom: 40px;
+}
+
+.room-title {
+  font-size: 18px;
+  vertical-align: middle;
+  padding: 10px 0;
+  background-color: #f7f7f7;
+}
+
+.label-room {
+  padding-left: 10px;
+}
+
+.join-link {
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #ec5242;
+  padding: 10px 30px;
+  margin: 30px 0;
+  color: #fff;
+}
+
+/* Partners */
+.partners {
+  background-color: #414246;
+}
+
+.partners-title::after {
+  content: "";
+  margin: 10px auto;
+  display: block;
+  border-bottom: 2px solid #ec5242;
+  width: 40px;
+}
+
+.partners-list {
+  padding: 0;
+  margin-bottom: 44px;
+}
+
+.partners-logo {
+  width: auto;
+  height: 65px;
+}
+
+/* Footer */
+.legal {
+  padding: 70px 0;
+}
+
+.footer-logo {
+  width: 130px;
+  height: auto;
+  margin-right: 55px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .select-tickets {
+    margin-top: 0;
+    padding-top: 140px;
+    padding-bottom: 70px;
+  }
+
+  .table-data {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .tickets-label {
+    font-size: 16px;
+  }
+
+  .legal {
+    color: #fff;
+    background-color: #414246;
+  }
+
+  .footer-logo {
+    width: 150px;
+    height: auto;
+    margin-right: 55px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-logo {
+    margin-right: 230px;
+  }
+}
+
+/*# sourceMappingURL=tickets.css.map */
