@@ -97,6 +97,13 @@ li {
   text-decoration: none;
   padding-right: 34px;
   opacity: 0.75;
+  transition: color 0.5s ease-in-out;
+}
+
+.nav-bottom-links:hover {
+  color: #ec5242;
+  text-decoration: none;
+  opacity: 0.75;
 }
 
 .link-about {
@@ -110,6 +117,13 @@ li {
   color: #ec5242;
   font-size: 15px;
   font-weight: bold;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.button-campaing:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ec5242;
 }
 
 .header-info {
