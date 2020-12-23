@@ -147,6 +147,8 @@ li {
 
 /* Main Program */
 .main-program {
+  background-image: url("./features/assets/imgs/main.jpg");
+  background-size: 100% 100%;
   background-color: #272a31;
 }
 
@@ -313,7 +315,6 @@ li {
     font-size: 18px;
   }
 }
-
 @media screen and (min-width: 992px) {
   .header-logo {
     margin-right: 230px;
