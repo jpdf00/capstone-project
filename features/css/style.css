@@ -25,7 +25,7 @@ li {
 
 /* Header */
 .header {
-  background-image: url("../assets/imgs/header-background.png");
+  background-image: linear-gradient(transparent, #f7f7f7), url("../assets/imgs/header-background.png");
   background-position: center;
   background-size: cover;
   background-color: #f7f7f7;
