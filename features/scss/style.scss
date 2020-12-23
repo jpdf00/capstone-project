@@ -73,7 +73,15 @@ li {
   text-decoration: none;
   padding-right: 20px;
   opacity: 0.75;
+  transition: color 0.5s ease-in-out;
 }
+
+.menu-links:hover {
+  color: $orange;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
 
 .nav-bar {
   z-index: 999;
