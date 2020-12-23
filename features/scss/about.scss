@@ -73,6 +73,7 @@ li {
   text-decoration: none;
   padding-right: 20px;
   opacity: 0.75;
+  transition: color 0.5s ease-in-out;
 }
 
 .menu-links:hover {
@@ -110,6 +111,7 @@ li {
   text-decoration: none;
   padding-right: 34px;
   opacity: 0.75;
+  transition: color 0.5s ease-in-out;
 }
 
 .nav-bottom-links:hover {
