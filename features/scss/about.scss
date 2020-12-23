@@ -32,6 +32,9 @@ li {
 
 /* Header */
 .header {
+  background-image: linear-gradient(transparent, $lighter-gray), url("../assets/imgs/header-background.png");
+  background-position: center;
+  background-size: cover;
   background-color: $lighter-gray;
 }
 
@@ -72,6 +75,12 @@ li {
   opacity: 0.75;
 }
 
+.menu-links:hover {
+  color: $orange;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
 .nav-bar {
   z-index: 999;
 }
@@ -103,6 +112,12 @@ li {
   opacity: 0.75;
 }
 
+.nav-bottom-links:hover {
+  color: $orange;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
 .link-about {
   color: $orange;
 }
@@ -114,6 +129,13 @@ li {
   color: $orange;
   font-size: 15px;
   font-weight: bold;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.button-campaing:hover {
+  text-decoration: none;
+  color: $white;
+  background-color: $orange;
 }
 
 .header-info {
@@ -182,6 +204,20 @@ li {
   background-color: $orange;
   width: 265px;
   height: 165px;
+}
+
+.past-img-2019 {
+  background-image: url("../assets/imgs/2019-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+
+.past-img-2018 {
+  background-image: url("../assets/imgs/2018-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
 }
 
 /* Partners */

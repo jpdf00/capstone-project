@@ -25,6 +25,9 @@ li {
 
 /* Header */
 .header {
+  background-image: linear-gradient(transparent, #f7f7f7), url("../assets/imgs/header-background.png");
+  background-position: center;
+  background-size: cover;
   background-color: #f7f7f7;
 }
 
@@ -65,6 +68,12 @@ li {
   opacity: 0.75;
 }
 
+.menu-links:hover {
+  color: #ec5242;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
 .nav-bar {
   z-index: 999;
 }
@@ -96,6 +105,12 @@ li {
   opacity: 0.75;
 }
 
+.nav-bottom-links:hover {
+  color: #ec5242;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
 .link-about {
   color: #ec5242;
 }
@@ -107,6 +122,13 @@ li {
   color: #ec5242;
   font-size: 15px;
   font-weight: bold;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.button-campaing:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ec5242;
 }
 
 .header-info {
@@ -175,6 +197,20 @@ li {
   background-color: #ec5242;
   width: 265px;
   height: 165px;
+}
+
+.past-img-2019 {
+  background-image: url("../assets/imgs/2019-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+
+.past-img-2018 {
+  background-image: url("../assets/imgs/2018-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
 }
 
 /* Partners */
@@ -282,7 +318,6 @@ li {
     margin-right: 55px;
   }
 }
-
 @media screen and (min-width: 992px) {
   .header-logo {
     margin-right: 230px;
