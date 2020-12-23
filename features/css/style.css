@@ -25,6 +25,9 @@ li {
 
 /* Header */
 .header {
+  background-image: url("../assets/imgs/header-background.png");
+  background-position: center;
+  background-size: cover;
   background-color: #f7f7f7;
 }
 
@@ -147,8 +150,9 @@ li {
 
 /* Main Program */
 .main-program {
-  background-image: url("./features/assets/imgs/main.jpg");
-  background-size: 100% 100%;
+  background-image: url("../assets/imgs/main-background.png");
+  background-position: center;
+  background-size: cover;
   background-color: #272a31;
 }
 
