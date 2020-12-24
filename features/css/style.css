@@ -25,6 +25,9 @@ li {
 
 /* Header */
 .header {
+  background-image: linear-gradient(transparent, #f7f7f7), url("../assets/imgs/header-background.png");
+  background-position: center;
+  background-size: cover;
   background-color: #f7f7f7;
 }
 
@@ -63,6 +66,13 @@ li {
   text-decoration: none;
   padding-right: 20px;
   opacity: 0.75;
+  transition: color 0.5s ease-in-out;
+}
+
+.menu-links:hover {
+  color: #ec5242;
+  text-decoration: none;
+  opacity: 0.75;
 }
 
 .nav-bar {
@@ -94,6 +104,13 @@ li {
   text-decoration: none;
   padding-right: 34px;
   opacity: 0.75;
+  transition: color 0.5s ease-in-out;
+}
+
+.nav-bottom-links:hover {
+  color: #ec5242;
+  text-decoration: none;
+  opacity: 0.75;
 }
 
 .link-about {
@@ -107,6 +124,13 @@ li {
   color: #ec5242;
   font-size: 15px;
   font-weight: bold;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.button-campaing:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ec5242;
 }
 
 .header-info {
@@ -147,6 +171,9 @@ li {
 
 /* Main Program */
 .main-program {
+  background-image: url("../assets/imgs/main-background.png");
+  background-position: center;
+  background-size: cover;
   background-color: #272a31;
 }
 
@@ -313,7 +340,6 @@ li {
     font-size: 18px;
   }
 }
-
 @media screen and (min-width: 992px) {
   .header-logo {
     margin-right: 230px;

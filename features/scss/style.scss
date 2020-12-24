@@ -32,6 +32,9 @@ li {
 
 /* Header */
 .header {
+  background-image: linear-gradient(transparent, $lighter-gray), url("../assets/imgs/header-background.png");
+  background-position: center;
+  background-size: cover;
   background-color: $lighter-gray;
 }
 
@@ -70,6 +73,13 @@ li {
   text-decoration: none;
   padding-right: 20px;
   opacity: 0.75;
+  transition: color 0.5s ease-in-out;
+}
+
+.menu-links:hover {
+  color: $orange;
+  text-decoration: none;
+  opacity: 0.75;
 }
 
 .nav-bar {
@@ -101,6 +111,13 @@ li {
   text-decoration: none;
   padding-right: 34px;
   opacity: 0.75;
+  transition: color 0.5s ease-in-out;
+}
+
+.nav-bottom-links:hover {
+  color: $orange;
+  text-decoration: none;
+  opacity: 0.75;
 }
 
 .link-about {
@@ -114,6 +131,13 @@ li {
   color: $orange;
   font-size: 15px;
   font-weight: bold;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.button-campaing:hover {
+  text-decoration: none;
+  color: $white;
+  background-color: $orange;
 }
 
 .header-info {
@@ -154,6 +178,9 @@ li {
 
 /* Main Program */
 .main-program {
+  background-image: url("../assets/imgs/main-background.png");
+  background-position: center;
+  background-size: cover;
   background-color: $black;
 }
 
